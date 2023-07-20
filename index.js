@@ -20,7 +20,7 @@ newEmployee[key]=value
     const {name, ...my} = employee
     return my
   }
-  
+
   function destructivelyDeleteFromEmployeeByKey(employee, key) {
     delete employee[key];
     return employee;
